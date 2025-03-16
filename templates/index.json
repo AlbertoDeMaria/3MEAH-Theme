@@ -14,21 +14,22 @@
       "blocks": {
         "slide-1": {
           "type": "slide",
-          "settings": {}
+          "settings": {
+            "image_desktop": "shopify://shop_images/Goldenage2025.webp",
+            "image_mobile": "shopify://shop_images/Goldenage2025.webp"
+          }
         },
         "slide-2": {
           "type": "slide",
-          "settings": {}
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {}
+          "settings": {
+            "image_desktop": "shopify://shop_images/everyday-2.1-desktop.webp",
+            "image_mobile": "shopify://shop_images/everyday-2.1-desktop.webp"
+          }
         }
       },
       "block_order": [
         "slide-1",
-        "slide-2",
-        "slide-3"
+        "slide-2"
       ],
       "settings": {}
     }
