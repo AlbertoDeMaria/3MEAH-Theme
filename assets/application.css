@@ -1,0 +1,114 @@
+/* Definizione dei font-face per Helvetica */
+@font-face {
+    font-family: 'Helvetica';
+    src: url('{{ "Helvetica.woff2" | asset_url }}') format('woff2'),
+         url('{{ "Helvetica.woff" | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('{{ "Helvetica-Bold.woff2" | asset_url }}') format('woff2'),
+         url('{{ "Helvetica-Bold.woff" | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('{{ "Helvetica-Light.woff2" | asset_url }}') format('woff2'),
+         url('{{ "Helvetica-Light.woff" | asset_url }}') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('{{ "Helvetica-Oblique.woff2" | asset_url }}') format('woff2'),
+         url('{{ "Helvetica-Oblique.woff" | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('{{ "Helvetica-BoldOblique.woff2" | asset_url }}') format('woff2'),
+         url('{{ "Helvetica-BoldOblique.woff" | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica Compressed';
+    src: url('{{ "helvetica-Compressed.woff2" | asset_url }}') format('woff2'),
+         url('{{ "helvetica-Compressed.woff" | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica Rounded';
+    src: url('{{ "helvetica-RoundedBold.woff2" | asset_url }}') format('woff2'),
+         url('{{ "helvetica-RoundedBold.woff" | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Applicazione dei font al tema */
+  :root {
+    --font-body-family: 'Helvetica', sans-serif;
+    --font-heading-family: 'Helvetica', sans-serif;
+    --font-button-family: 'Helvetica', sans-serif;
+  }
+  
+  html, body {
+    font-family: var(--font-body-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading-family);
+  }
+  
+  button, .button, .btn {
+    font-family: var(--font-button-family);
+  }
+  
+  /* Classi di utilità per i diversi stili di Helvetica */
+  .font-helvetica-light {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+  }
+  
+  .font-helvetica-regular {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+  }
+  
+  .font-helvetica-bold {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+  }
+  
+  .font-helvetica-italic {
+    font-family: 'Helvetica', sans-serif;
+    font-style: italic;
+  }
+  
+  .font-helvetica-compressed {
+    font-family: 'Helvetica Compressed', sans-serif;
+  }
+  
+  .font-helvetica-rounded {
+    font-family: 'Helvetica Rounded', sans-serif;
+    font-weight: bold;
+  }
