@@ -16,14 +16,14 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify://shop_images/Artboard_1.png",
-            "image_mobile": "shopify://shop_images/Goldenage2025.webp"
+            "image_mobile": "shopify://shop_images/Artboard_1.png"
           }
         },
         "slide-2": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/everyday-2.1-desktop.webp",
-            "image_mobile": "shopify://shop_images/everyday-2.1-desktop.webp"
+            "image_desktop": "shopify://shop_images/intera-optimized.jpg",
+            "image_mobile": "shopify://shop_images/intera-optimized.jpg"
           }
         }
       },
