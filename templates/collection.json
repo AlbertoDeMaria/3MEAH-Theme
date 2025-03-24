@@ -1,0 +1,41 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "full-screen-slider": {
+        "type": "full-screen-slider",
+        "blocks": {
+          "slide-1": {
+            "type": "slide",
+            "settings": {
+              "image_desktop": "shopify://shop_images/Artboard_1.png",
+              "image_mobile": "shopify://shop_images/Artboard_1.png"
+            }
+          },
+          "slide-2": {
+            "type": "slide",
+            "settings": {
+              "image_desktop": "shopify://shop_images/intera-optimized.jpg",
+              "image_mobile": "shopify://shop_images/intera-optimized.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "slide-1",
+          "slide-2"
+        ],
+        "settings": {}
+      }
+    },
+    "order": [
+      "full-screen-slider"
+    ]
+  }
+  

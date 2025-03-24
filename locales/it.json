@@ -9,5 +9,16 @@
       "customer": {
         "account": "ACCOUNT"
       }
+    },
+    "sections": {
+    "collection_grid": {
+      "select_collection": "Seleziona una collezione",
+      "view_all": "Vedi tutti"
     }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Ci dispiace, non ci sono prodotti in questa collezione"
+    }
+  }
   }

@@ -1,13 +1,24 @@
 {
-    "general": {
-      "menu": "Menu"
+  "general": {
+    "menu": "Menu"
+  },
+  "layout": {
+    "cart": {
+      "title": "CART"
     },
-    "layout": {
-      "cart": {
-        "title": "CART"
-      },
-      "customer": {
-        "account": "ACCOUNT"
-      }
+    "customer": {
+      "account": "ACCOUNT"
+    }
+  },
+  "sections": {
+    "collection_grid": {
+      "select_collection": "Please select a collection",
+      "view_all": "View all"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Sorry, there are no products in this collection"
     }
   }
+}
